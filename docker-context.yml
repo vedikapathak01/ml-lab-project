@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+
+name: docker-context-example
+
+build:
+  path: docker-context
+  
