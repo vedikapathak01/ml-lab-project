@@ -1,10 +1,13 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 
+code: .
+
 command: >
   python src/train.py && python src/test.py
 
-environment: azureml:ml-env@latest
+environment: azureml:ml-env:2
 
 compute: azureml:cpu-cluster
 
 display_name: ml-pipeline-job
+experiment_name: ml-lab-project
