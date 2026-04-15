@@ -2,8 +2,12 @@ import mlflow
 import mlflow.sklearn
 from sklearn.linear_model import LinearRegression
 import numpy as np
+import os
 
-mlflow.set_tracking_uri("http://127.0.0.1:5003")  # 🔥 IMPORTANT
+# 🔥 Only use tracking URI locally, not in CI
+if os.getenv("GITHUB_ACTIONS") != "true":
+    mlflow.set_tracking_uri("http://127.0.0.1:5003")
+
 mlflow.set_experiment("local-exp")
 
 X = np.array([[1], [2], [3]])
