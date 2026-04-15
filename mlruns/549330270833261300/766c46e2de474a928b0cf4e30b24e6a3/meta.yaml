@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/hp/ml-project-setup/ml-lab-project/mlruns/549330270833261300/766c46e2de474a928b0cf4e30b24e6a3/artifacts
+end_time: 1776250640855
+entry_point_name: ''
+experiment_id: '549330270833261300'
+lifecycle_stage: active
+run_id: 766c46e2de474a928b0cf4e30b24e6a3
+run_name: victorious-finch-117
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776250640848
+status: 3
+tags: []
+user_id: hp

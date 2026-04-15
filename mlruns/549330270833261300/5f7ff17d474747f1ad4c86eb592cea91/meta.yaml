@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/hp/ml-project-setup/ml-lab-project/mlruns/549330270833261300/5f7ff17d474747f1ad4c86eb592cea91/artifacts
+end_time: 1776240053880
+entry_point_name: ''
+experiment_id: '549330270833261300'
+lifecycle_stage: active
+run_id: 5f7ff17d474747f1ad4c86eb592cea91
+run_name: magnificent-ape-104
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776240053873
+status: 3
+tags: []
+user_id: hp

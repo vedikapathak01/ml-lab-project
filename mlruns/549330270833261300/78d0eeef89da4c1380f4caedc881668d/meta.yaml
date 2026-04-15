@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/hp/ml-project-setup/ml-lab-project/mlruns/549330270833261300/78d0eeef89da4c1380f4caedc881668d/artifacts
+end_time: 1776239963397
+entry_point_name: ''
+experiment_id: '549330270833261300'
+lifecycle_stage: active
+run_id: 78d0eeef89da4c1380f4caedc881668d
+run_name: classy-seal-276
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776239963390
+status: 3
+tags: []
+user_id: hp

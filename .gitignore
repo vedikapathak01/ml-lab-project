@@ -10,11 +10,8 @@ venv/
 miniconda3/
 opt/miniconda3/
 
-# Data files (if large)
-data/
-
-# VS Code
-.vscode/
+data/*
+!data/*.dvc
 
 # Mac files
 .DS_Store

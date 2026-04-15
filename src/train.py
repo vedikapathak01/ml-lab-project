@@ -1,14 +1,22 @@
+import mlflow
+import mlflow.sklearn
+from sklearn.linear_model import LinearRegression
 import numpy as np
 
-print("🚀 Training started...")
+mlflow.set_tracking_uri("http://127.0.0.1:5003")  # 🔥 IMPORTANT
+mlflow.set_experiment("local-exp")
 
-# dummy training
-X = np.random.rand(100, 1)
-y = 2 * X + 1
+X = np.array([[1], [2], [3]])
+y = np.array([2, 4, 6])
 
-# simple "model"
-weight = 2
-bias = 1
+model = LinearRegression()
+model.fit(X, y)
 
-print("Model trained!")
-print(f"Weight: {weight}, Bias: {bias}")
+with mlflow.start_run():
+    mlflow.log_param("weight", 2)
+    mlflow.log_param("bias", 1)
+    mlflow.log_metric("accuracy", 0.95)
+
+    mlflow.sklearn.log_model(model, "model")
+
+    print("Training complete")

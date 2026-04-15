@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/hp/ml-project-setup/ml-lab-project/mlruns/549330270833261300/8dc8257eb6e2480fae1ac92a85c81b22/artifacts
+end_time: 1776283115773
+entry_point_name: ''
+experiment_id: '549330270833261300'
+lifecycle_stage: active
+run_id: 8dc8257eb6e2480fae1ac92a85c81b22
+run_name: burly-bug-644
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776283113400
+status: 3
+tags: []
+user_id: hp
