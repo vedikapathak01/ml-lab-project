@@ -1,0 +1,8 @@
+[core]
+    remote = azure-remote
+['remote "myremote"']
+    url = ../dvc-storage
+['remote "azure-remote"']
+    url = azure://dvccontainer
+    account_name = mlworkspace3794259535
+    account_key = B8EzX3lmFiu9jqhlNYNfMcAzLklEfmEMYqdbloCJYWuF8v4ngsHofFRjBMM/pCwF8+rtQ/gev0+F+AStnojeHQ==
